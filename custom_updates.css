@@ -1,0 +1,94 @@
+/*Колір та розмір Toolbar*/
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
+md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+  background-color: rgb(20, 96, 199);
+}
+
+/*Розмір та колір Панелі фільтрів*/
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent,
+md-toolbar:not(.md-menu-toolbar).md-accent {
+  background-color: rgb(20, 96, 199);
+  color: rgba(246, 246, 246);
+}
+
+/*Розмір та колір іконок переключення режимів перегляду*/
+
+.md-button.md-default-theme.md-primary.md-fab,
+.md-button.md-primary.md-fab,
+.md-button.md-default-theme.md-primary.md-raised,
+.md-button.md-primary.md-raised {
+  background-color: rgb(20, 96, 199);
+  border-radius: 40px;
+}
+
+
+/*Колір іконок соцмереж*/
+
+.smicon.md-20 {
+  color: rgb(61, 68, 90);
+}
+
+.material-icons.md-20 {
+  color: rgb(61, 68, 90);
+}
+
+/*Фільтр перетину тем*/
+md-input-container.md-icon-right {
+  padding-left: 0;
+  /* padding-right: 36px; */
+}
+
+/*Іконки закріплення фільтрів та очистки*/
+md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent md-icon,
+md-toolbar:not(.md-menu-toolbar).md-accent md-icon {
+  color: rgba(246, 246, 246);
+  fill: rgba(246, 246, 246);
+}
+
+/*Прибрати лінії по бокам*/
+
+.sidenav-left-border {
+  border-right: 0px solid #ffffff !important;
+  border-left: 0px solid #ffffff !important;
+}
+
+.sidenav-right-border {
+  border-right: 0px solid #ffffff !important;
+  border-left: 0px solid #ffffff !important;
+}
+.semantrum-border-left {
+  border-left: 0px solid #ffffff !important;
+}
+
+.semantrum-border-right {
+  border-left: 0px solid #ffffff !important;
+}
+
+.semantrum-border-bottom {
+  border-left: 0px solid #ffffff !important;
+}
+
+/*Ховер на плашки фільтрів усі*/
+
+md-list-item.md-clickable:hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+/*Іконки чекбоксів*/
+
+md-checkbox .md-icon {
+  border-radius: 5px;
+}
+
+md-icon.md-default-theme,
+md-icon {
+  color: rgba(61, 68, 90);
+}
+
+/*Тіні плашок тем та фільтрів*/
+.md-whiteframe-1dp,
+.md-whiteframe-z1 {
+  box-shadow: inset 0px -2px 6px 0px #b1b1b15e !important;
+}
+/*комеент*/
